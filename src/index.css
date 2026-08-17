@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,460;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --color-ivory: #F8F3E9;
+  --color-ivory-deep: #F1E9D8;
+  --color-sand: #E4D5B7;
+  --color-sand-line: #DCCBA6;
+  --color-espresso: #241A12;
+  --color-espresso-soft: #3A2B1E;
+  --color-charcoal: #1C1A17;
+  --color-champagne: #B4864C;
+  --color-champagne-light: #D8B679;
+  --color-champagne-text: #8D693B;
+  --color-ink: #2A2119;
+  --color-white-warm: #FFFDF8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-ivory);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 460;
+  letter-spacing: -0.01em;
+  color: var(--color-espresso);
+}
+
+/* Eyebrow label -- tracked-out uppercase micro-label used throughout */
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--color-champagne-text);
+}
+.eyebrow::before {
+  content: "";
+  width: 28px;
+  height: 1px;
+  background: var(--color-champagne-text);
+}
+.eyebrow.on-dark {
+  color: var(--color-ivory-deep);
+}
+.eyebrow.on-dark::before {
+  background: var(--color-ivory-deep);
+}
+
+/* Shared photographic hero — semi-transparent black gradient for text readability */
+.hero-overlay {
+  pointer-events: none;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.12) 0%,
+    rgba(0, 0, 0, 0.18) 30%,
+    rgba(0, 0, 0, 0.38) 65%,
+    rgba(0, 0, 0, 0.55) 100%
+  );
+}
+
+@media (max-width: 767px) {
+  .hero-overlay {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.12) 0%,
+      rgba(0, 0, 0, 0.22) 28%,
+      rgba(0, 0, 0, 0.42) 62%,
+      rgba(0, 0, 0, 0.58) 100%
+    );
+  }
+}
+
+.hero-heading {
+  color: var(--color-white-warm) !important;
+  font-weight: 500;
+  text-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.45),
+    0 4px 24px rgba(0, 0, 0, 0.35);
+}
+
+.hero-sub {
+  color: var(--color-ivory-deep) !important;
+  font-weight: 500;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.42);
+}
+
+.hero-eyebrow {
+  color: var(--color-ivory-deep) !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.38);
+}
+
+.hero-eyebrow::before {
+  background: var(--color-ivory-deep) !important;
+}
+
+/* Signature motif: portico arch, used sparingly as an image-frame */
+.arch-frame {
+  clip-path: polygon(0 6%, 0 100%, 100% 100%, 100% 6%, 50% 0%);
+}
+
+/* Scrollbar for horizontal rails */
+.no-scrollbar::-webkit-scrollbar {
+  height: 4px;
+}
+.no-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--color-sand-line);
+}
+
+/* Focus visibility */
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 2px solid var(--color-champagne);
+  outline-offset: 3px;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

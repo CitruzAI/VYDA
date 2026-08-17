@@ -1,0 +1,56 @@
+export const nivaaraTirumala = {
+  eyebrow: "Tirumala Pilgrim Guide",
+  heading: "Everything you need for a smooth and sacred journey",
+  sub: "Hotel Nivaara offers convenient access to the temple and other sacred sites, making your pilgrimage comfortable and memorable. The main temple is just 20 km from our doorstep.",
+  heroImage: "https://nivaarahotels.com/__l5e/assets-v1/f9ef1ccc-4e87-428b-8000-4ea10a5ff878/tirumala-2.jpg",
+  heroImageAlt: "Aerial view of Tirumala temple complex nestled in the Seshachalam hills",
+  arjithaSevas: {
+    heading: "Booking your sevas",
+    body: "Seva tickets can be reserved by sending a Demand Draft for the specified amount in favour of Executive Officer, T.T.D., Tirupati along with a letter addressed to the Peishkar, T.T.D., Tirumala – 517504 at least three months in advance.",
+    link: "https://www.ttdsevaonline.com",
+    linkLabel: "Visit ttdsevaonline.com",
+  },
+  contacts: {
+    heading: "Helpful Contacts",
+    subheading: "Temple Information",
+    items: [
+      { label: "Tirumala", value: "2232813, 2231777 ext. 4271 / 4217" },
+      { label: "Tirupati", value: "2277933, 2277777 ext. 3679, 3589" },
+      { label: "STD Code", value: "0877" },
+      { label: "Sudarshan Ticket Counter (Tirupati)", value: "0877 2223054 / 2287785 / 2286550" },
+    ],
+    resources: [
+      { label: "tirumala.org", href: "https://www.tirumala.org" },
+      { label: "tirupati.org", href: "https://www.tirupati.org" },
+    ],
+  },
+  about: {
+    heading: "A sacred hill town in Andhra Pradesh",
+    body: "Home to the famous Sri Venkateswara Temple — one of the most visited religious sites in the world. Hotel Nivaara offers convenient access to the temple and other sacred sites, making your pilgrimage comfortable and memorable. The main temple is just 20 km from our doorstep.",
+    image: "https://nivaarahotels.com/__l5e/assets-v1/184de2fe-9108-4238-9a65-a8311fc7f2b6/tirumala-5.jpg",
+    imageAlt: "Tirumala gopuram illuminated against a starry night sky",
+  },
+  sacredSites: {
+    heading: "Sacred sites near the hotel",
+    sites: [
+      { name: "Tirumala Balaji Temple", distance: "20 km", note: "World's most visited spiritual destination" },
+      { name: "Alipiri Toll Plaza", distance: "3 km", note: "Gateway to the sacred hills" },
+      { name: "Srinivasa Mangapuram", distance: "6 km", note: "Sacred pilgrimage destination" },
+      { name: "Bangalore Highway", distance: "2 km", note: "Major connectivity hub" },
+      { name: "Govindaraja Swamy Temple", distance: "1 km", note: "Ancient Vishnu temple" },
+      { name: "Padmavathi Devi Temple", distance: "5 km", note: "Divine Mother's abode" },
+      { name: "ISKCON Temple", distance: "3 km", note: "International Krishna consciousness" },
+      { name: "Kapileswara Temple", distance: "2 km", note: "Lord Shiva's divine presence" },
+      { name: "Srikalahasti Temple", distance: "40 km", note: "Famed for Rahu-Ketu pooja" },
+      { name: "Gudimallam Temple", distance: "24 km", note: "Ancient Shiva temple, unique lingam" },
+      { name: "Appalayagunta Temple", distance: "21 km", note: "Peaceful Venkateswara temple" },
+      { name: "Talakona Waterfalls", distance: "60 km", note: "Scenic waterfall amidst greenery" },
+      { name: "Tirupati Railway Station", distance: "1 km", note: "Just a short walk from the lobby" },
+      { name: "APSRTC Bus Station", distance: "Opposite", note: "Direct buses to Tirumala every few minutes" },
+      { name: "Tirupati Airport (TIR)", distance: "8 km", note: "Domestic connectivity to major metros" },
+      { name: "Sri Venkateswara Museum", distance: "18 km", note: "Temple art, architecture & history" },
+    ],
+  },
+  distanceNote:
+    "The sacred Sri Venkateswara Temple at Tirumala is approximately 20 km — about a 45-minute drive via the Alipiri ghat road. Our concierge can arrange cab transfers and darshan guidance.",
+};

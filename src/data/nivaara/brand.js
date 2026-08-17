@@ -1,0 +1,33 @@
+export const nivaaraBrand = {
+  name: "Hotel Nivaara",
+  tagline: "Tirupati · India",
+  address: "Next to APSRTC Central Bus Station, Tirupati – 517501, Andhra Pradesh, India",
+  addressShort: "Next to APSRTC Central Bus Station, Tirupati - 517501, AP, India",
+  phone: "+91 90300 57115",
+  phoneTel: "+919030057115",
+  phoneLandline: "0877 2257115",
+  phoneLandlineTel: "08772257115",
+  email: "res.tpt@nivaarahotels.com",
+  whatsapp: "https://wa.me/919030057115",
+  bookingUrl: "https://nivaarahotels.com/booking",
+  instagram: "https://www.instagram.com/nivaarahoteltirupati/",
+  facebook: "https://www.facebook.com/profile.php?id=61591554894587",
+  googleReviews: "https://www.google.com/travel/search?q=nivaara%20tirupati&ap=ugEHcmV2aWV3cw",
+  rating: "4.8",
+  reviewCount: "1,200+",
+  frontDesk: "Open 24 hours",
+  checkIn: "12:00 PM",
+  checkOut: "11:00 AM",
+  mapQuery: "Hotel+Nivaara+Tirupati+APSRTC+Bus+Station",
+};
+
+export const nivaaraSections = [
+  { id: "overview", label: "Overview" },
+  { id: "rooms", label: "Rooms" },
+  { id: "dining", label: "Dining" },
+  { id: "banquets", label: "Banquets" },
+  { id: "gallery", label: "Gallery" },
+  { id: "facilities", label: "Facilities" },
+  { id: "tirumala", label: "Tirumala" },
+  { id: "contact", label: "Contact" },
+];
