@@ -82,7 +82,6 @@ export const dining = {
   body: "Experience diverse flavours at VYDA Hotels' restaurants in Bengaluru. From authentic local dishes to international cuisines, our dining spaces offer a refined culinary experience designed to delight every palate.",
   cuisines: ["South Indian", "Multi-Cuisine", "All-Day Dining", "In-Room Dining"],
   image: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-75.jpg",
-  imageSecondary: "https://vydahotels.com/wp-content/uploads/2026/01/Untitled-design-49.jpg",
 };
 
 export const whyVyda = {

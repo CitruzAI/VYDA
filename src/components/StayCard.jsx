@@ -2,12 +2,13 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Button from "./Button.jsx";
 
-export default function StayCard({ hotel, size = "large", aspect = "aspect-[4/5]" }) {
+export default function StayCard({ hotel, size = "large", aspect = "aspect-[4/5]", layout = "default" }) {
   const isLarge = size === "large";
   const detailPath = hotel.exploreHref || `/hotels/${hotel.id}`;
+  const colSpan = layout === "grid" ? "" : isLarge ? "lg:col-span-7" : "lg:col-span-5";
 
   return (
-    <div className={`group ${isLarge ? "lg:col-span-7" : "lg:col-span-5"}`}>
+    <div className={`group ${colSpan}`}>
       <Link to={detailPath} className={`block overflow-hidden relative ${aspect}`}>
         <motion.img
           src={hotel.image}

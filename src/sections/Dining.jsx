@@ -16,12 +16,11 @@ export default function Dining() {
           ))}
         </div>
       </Reveal>
-      <div className="grid grid-rows-2 gap-px bg-ink/10 min-h-[380px]">
-        <img src={dining.image} alt="Dining at VYDA Hotels" className="w-full h-full object-cover" loading="lazy" />
+      <div className="min-h-[320px] lg:min-h-0">
         <img
-          src={dining.imageSecondary}
-          alt="Restaurant at VYDA Hotels"
-          className="w-full h-full object-cover"
+          src={dining.image}
+          alt="Dining at VYDA Hotels"
+          className="w-full h-full min-h-[320px] lg:min-h-full object-cover"
           loading="lazy"
         />
       </div>
