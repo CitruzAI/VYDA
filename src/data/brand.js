@@ -2,7 +2,7 @@ export const brand = {
   name: "VYDA",
   fullName: "VYDA Hotels",
   logo: "/vyda-logo.png",
-  logoFooter: "/favicon.png",
+  logoFooter: "/vyda-logo-footer.png",
   favicon: "/favicon.png",
   tagline: "Business-Focused Hospitality, Designed Just for You",
   email: "reserv@vydahotels.com",

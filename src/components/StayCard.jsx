@@ -6,26 +6,44 @@ export default function StayCard({ hotel, size = "large", aspect = "aspect-[4/5]
   const isLarge = size === "large";
   const detailPath = hotel.exploreHref || `/hotels/${hotel.id}`;
   const colSpan = layout === "grid" ? "" : isLarge ? "lg:col-span-7" : "lg:col-span-5";
+  const isExternal = hotel.external || detailPath.startsWith("http");
+
+  const image = (
+    <>
+      <motion.img
+        src={hotel.image}
+        alt={`${hotel.name}, ${hotel.city}`}
+        className="w-full h-full object-cover"
+        initial={{ scale: 1 }}
+        whileHover={{ scale: 1.06 }}
+        transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+        loading="lazy"
+      />
+      <span className="absolute top-5 left-5 text-[0.65rem] uppercase tracking-wider text-ivory bg-espresso/55 backdrop-blur-sm px-3 py-1.5">
+        {hotel.tag}
+      </span>
+      <span className="absolute bottom-5 left-5 font-display text-6xl text-ivory/90 leading-none drop-shadow-md">
+        {hotel.index}
+      </span>
+    </>
+  );
 
   return (
     <div className={`group ${colSpan}`}>
-      <Link to={detailPath} className={`block overflow-hidden relative ${aspect}`}>
-        <motion.img
-          src={hotel.image}
-          alt={`${hotel.name}, ${hotel.city}`}
-          className="w-full h-full object-cover"
-          initial={{ scale: 1 }}
-          whileHover={{ scale: 1.06 }}
-          transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-          loading="lazy"
-        />
-        <span className="absolute top-5 left-5 text-[0.65rem] uppercase tracking-wider text-ivory bg-espresso/55 backdrop-blur-sm px-3 py-1.5">
-          {hotel.tag}
-        </span>
-        <span className="absolute bottom-5 left-5 font-display text-6xl text-ivory/90 leading-none drop-shadow-md">
-          {hotel.index}
-        </span>
-      </Link>
+      {isExternal ? (
+        <a
+          href={detailPath}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={`block overflow-hidden relative ${aspect}`}
+        >
+          {image}
+        </a>
+      ) : (
+        <Link to={detailPath} className={`block overflow-hidden relative ${aspect}`}>
+          {image}
+        </Link>
+      )}
       <div className="mt-6">
         <span className="text-[0.72rem] uppercase tracking-wider text-champagne-text">
           {hotel.city} · {hotel.area}
@@ -40,9 +58,15 @@ export default function StayCard({ hotel, size = "large", aspect = "aspect-[4/5]
           ))}
         </div>
         <div className="mt-5">
-          <Button to={detailPath} variant="text">
-            Explore Stay
-          </Button>
+          {isExternal ? (
+            <Button href={detailPath} variant="text">
+              Explore Stay
+            </Button>
+          ) : (
+            <Button to={detailPath} variant="text">
+              Explore Stay
+            </Button>
+          )}
         </div>
       </div>
     </div>

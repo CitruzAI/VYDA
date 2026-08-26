@@ -11,7 +11,7 @@ export default function Rooms() {
             <h2 className="text-[clamp(2rem,4vw,3.1rem)]">Considered comfort, in every typology</h2>
           </div>
           <p className="max-w-[46ch] text-[1.05rem] text-ink/60 leading-relaxed">
-            A selection of rooms across our Bengaluru properties — swipe to explore.
+            A selection of rooms across our properties — swipe to explore.
           </p>
         </Reveal>
 

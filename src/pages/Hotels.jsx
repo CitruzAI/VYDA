@@ -20,8 +20,8 @@ export default function Hotels() {
         <div className="max-w-[1400px] mx-auto px-5 md:px-10">
           <SectionHeader
             eyebrow="Our Collection"
-            heading="VYDA Hotels in Bengaluru"
-            body="Three distinct properties across Bengaluru's most strategic business corridors — each managed directly by VYDA."
+            heading="VYDA Hotels"
+            body="Two Bengaluru properties and Hotel Nivaara in Tirupati — each managed with VYDA's hospitality standards."
             className="mb-16"
           />
 
@@ -75,7 +75,12 @@ export default function Hotels() {
                     </div>
                   )}
                   <div className="mt-8">
-                    <Button to={hotel.exploreHref} variant="primary" icon={false}>
+                    <Button
+                      to={hotel.external ? undefined : hotel.exploreHref}
+                      href={hotel.external ? hotel.exploreHref : undefined}
+                      variant="primary"
+                      icon={false}
+                    >
                       Explore Details
                     </Button>
                   </div>

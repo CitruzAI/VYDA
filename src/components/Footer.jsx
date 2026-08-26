@@ -26,7 +26,7 @@ function LinkedinIcon(props) {
 
 export default function Footer() {
   return (
-    <footer id="contact" className="bg-espresso text-ivory/70 pt-20 pb-8">
+    <footer id="contact" className="bg-vyda-blue text-ivory/70 pt-20 pb-8">
       <div className="max-w-[1400px] mx-auto px-5 md:px-10">
         <div className="grid grid-cols-1 md:grid-cols-[1.4fr_1fr_1fr_1.2fr] gap-10 pb-14 border-b border-white/10">
           <div>
@@ -35,7 +35,7 @@ export default function Footer() {
                 src={brand.logoFooter}
                 alt={brand.fullName}
                 className="h-16 w-auto"
-                width={64}
+                width={80}
                 height={64}
               />
             </Link>

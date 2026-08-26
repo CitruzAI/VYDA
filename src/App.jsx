@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout.jsx";
 import Home from "./pages/Home.jsx";
@@ -9,7 +10,13 @@ import Partner from "./pages/Partner.jsx";
 import Careers from "./pages/Careers.jsx";
 import Blog from "./pages/Blog.jsx";
 import BlogArticle from "./pages/BlogArticle.jsx";
-import Nivaara from "./pages/Nivaara.jsx";
+
+function RedirectExternal({ to }) {
+  useEffect(() => {
+    window.location.replace(to);
+  }, [to]);
+  return null;
+}
 
 export default function App() {
   return (
@@ -19,7 +26,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/hotels" element={<Hotels />} />
         <Route path="/hotels/:slug" element={<HotelDetail />} />
-        <Route path="/nivaara" element={<Nivaara />} />
+        <Route path="/nivaara" element={<RedirectExternal to="https://nivaarahotels.com/" />} />
         <Route path="/mice-events" element={<MiceEvents />} />
         <Route path="/partner" element={<Partner />} />
         <Route path="/careers" element={<Careers />} />

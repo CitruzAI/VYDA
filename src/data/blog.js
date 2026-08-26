@@ -21,18 +21,6 @@ export const featuredArticles = [
     isExternal: true,
   },
   {
-    slug: "hello-inn-brookfield-bangalore-business-hotel",
-    title: "Hello INN by VYDA — The Smart Stay for Business Travellers in Brookfield, Bangalore",
-    date: "2025-10-08",
-    excerpt:
-      "The smart stay for business travellers in Brookfield, close to ITPL, RMZ Ecospace and Bagmane Tech Park.",
-    image: "https://vydahotels.com/wp-content/uploads/2025/10/VYDA-blog-images-1.jpg",
-    link: "https://vydahotels.com/hello-inn-brookfield-bangalore-business-hotel/",
-    category: "Featured",
-    featured: true,
-    isExternal: true,
-  },
-  {
     slug: "aurum-keys-hotel-bengaluru-the-perfect-business-stay-for-corporate-professionals",
     title: "Aurum Keys Hotel Bengaluru – The Perfect Business Stay for Corporate Professionals",
     date: "2025-10-06",

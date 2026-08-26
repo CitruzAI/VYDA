@@ -68,11 +68,11 @@ export const rooms = [
     image: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-52.jpg",
   },
   {
-    hotel: "Hello INN by VYDA",
-    name: "Superior King",
-    meta: "Ergonomic workspace · Smart TV",
-    desc: "Modern, well-furnished rooms designed for business travellers with high-speed Wi-Fi and plush bedding.",
-    image: "https://vydahotels.com/wp-content/uploads/2025/10/VYDA-blog-images-1.jpg",
+    hotel: "Hotel Nivaara",
+    name: "Superior Room",
+    meta: "288 sq.ft · King Bed",
+    desc: "Our most spacious accommodation at Hotel Nivaara, with a separate living area, butler service and luxury linens for a restful stay near Tirumala.",
+    image: "https://nivaarahotels.com/__l5e/assets-v1/f1dd6e03-3986-48e0-ab3f-ba99643c8e32/superior-room-v2.jpg",
   },
 ];
 

@@ -10,7 +10,6 @@ export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const { pathname } = useLocation();
-  const isHome = pathname === "/";
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -30,15 +29,11 @@ export default function Nav() {
     setOpen(false);
   }, [pathname]);
 
-  const dark = isHome && !scrolled && !open;
-
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          scrolled || !isHome || open
-            ? "bg-ivory/95 backdrop-blur-md py-3.5 border-b border-ink/10 shadow-sm"
-            : "py-6 border-b border-transparent"
+        className={`fixed top-0 left-0 right-0 z-50 bg-vyda-blue transition-all duration-300 ${
+          scrolled || open ? "py-3 border-b border-white/10 shadow-sm" : "py-4 border-b border-transparent"
         }`}
       >
         <div className="max-w-[1400px] mx-auto px-5 md:px-10 flex items-center justify-between gap-6">
@@ -46,9 +41,9 @@ export default function Nav() {
             <img
               src={brand.logo}
               alt={brand.fullName}
-              className="h-9 w-auto"
-              width={140}
-              height={36}
+              className="h-12 w-auto md:h-14"
+              width={80}
+              height={56}
             />
           </Link>
 
@@ -58,12 +53,12 @@ export default function Nav() {
                 key={item.label}
                 to={item.href}
                 className={`text-[0.84rem] font-medium relative group transition-colors ${
-                  pathname === item.href ? "text-champagne-text" : dark ? "text-ivory" : "text-espresso"
+                  pathname === item.href ? "text-champagne-light" : "text-ivory"
                 }`}
               >
                 {item.label}
                 <span
-                  className={`absolute left-0 -bottom-1 h-px bg-champagne transition-all duration-300 ${
+                  className={`absolute left-0 -bottom-1 h-px bg-champagne-light transition-all duration-300 ${
                     pathname === item.href ? "w-full" : "w-0 group-hover:w-full"
                   }`}
                 />
@@ -72,7 +67,7 @@ export default function Nav() {
           </nav>
 
           <div className="hidden lg:flex items-center">
-            <Button to="/#booking" variant={dark ? "ghostDark" : "ghost"} icon={false}>
+            <Button to="/#booking" variant="ghostDark" icon={false}>
               Book Your Stay
             </Button>
           </div>
@@ -80,7 +75,7 @@ export default function Nav() {
           <button
             aria-label="Toggle menu"
             onClick={() => setOpen((v) => !v)}
-            className={`lg:hidden p-1 ${dark && !open ? "text-ivory" : "text-espresso"}`}
+            className="lg:hidden p-1 text-ivory"
           >
             {open ? <X size={26} strokeWidth={1.5} /> : <Menu size={26} strokeWidth={1.5} />}
           </button>

@@ -26,7 +26,7 @@ export const aboutPage = {
   ],
   stats: [
     { num: "65+", label: "Years combined founder expertise" },
-    { num: "3", label: "VYDA Hotels in Bengaluru" },
+    { num: "3", label: "VYDA properties" },
     { num: "1000+", label: "Corporate clients" },
     { num: "5000+", label: "Travel agent partners" },
   ],
@@ -69,8 +69,8 @@ export const aboutPage = {
   },
   hotelsOverview: {
     eyebrow: "VYDA Hotels",
-    heading: "A focused collection across Bengaluru",
-    body: "VYDA Hotels are expertly managed by us, delivering exceptional hospitality experiences across Bengaluru's key IT corridors. From Aurum Keys on the Outer Ring Road to Hello INN in Brookfield and Forest Keys in J.P. Nagar, each property is thoughtfully positioned for business and leisure travellers — with distinct room counts, amenities, and character.",
+    heading: "A focused collection across Bengaluru and Tirupati",
+    body: "VYDA Hotels are expertly managed by us, delivering exceptional hospitality experiences. From Aurum Keys on Bengaluru's Outer Ring Road to Forest Keys in J.P. Nagar and Hotel Nivaara in Tirupati, each property is thoughtfully positioned — with distinct room counts, amenities, and character.",
     image: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-4.jpg",
   },
   discovery: {

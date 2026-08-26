@@ -145,7 +145,11 @@ export default function About() {
                       ))}
                     </div>
                     <div className="mt-5">
-                      <Button to={hotel.exploreHref} variant="text">
+                      <Button
+                        to={hotel.external ? undefined : hotel.exploreHref}
+                        href={hotel.external ? hotel.exploreHref : undefined}
+                        variant="text"
+                      >
                         Explore Hotel
                       </Button>
                     </div>

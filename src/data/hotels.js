@@ -29,36 +29,8 @@ export const vydaHotels = [
     amenities: ["Free WiFi", "Concierge", "Restaurant", "Parking"],
   },
   {
-    id: "hello-inn",
-    index: "02",
-    name: "Hello INN by VYDA",
-    city: "Bengaluru",
-    area: "Brookfield — ITPL",
-    tag: "Business",
-    roomCount: "70 contemporary, well-appointed rooms",
-    description:
-      "The smart stay for business travellers in Brookfield, close to ITPL, RMZ Ecospace and Bagmane Tech Park — modern rooms with plush bedding, high-speed Wi-Fi and smart TVs.",
-    highlights: [
-      "Prime location in Brookefield – ITPL IT Corridor",
-      "70 contemporary, well-appointed rooms",
-      "Modern design with effortless comfort",
-      "Plush bedding, high-speed Wi-Fi, and smart TVs",
-    ],
-    address:
-      "No. 624, 1st Main, 2nd Cross, C-Block, AECS Layout, Brookfield, Kundalahalli, Bangalore-560037, Karnataka",
-    image: "https://vydahotels.com/wp-content/uploads/2025/10/VYDA-blog-images-1.jpg",
-    imageAlt: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-5.jpg",
-    href: "https://vydahotels.com/hello-inn-brookfield-bangalore-business-hotel/",
-    exploreHref: "/hotels/hello-inn",
-    rooms: [
-      { name: "Superior King", meta: "Ergonomic workspace · Smart TV" },
-      { name: "Superior Twin", meta: "Shared comfort · High-speed Wi-Fi" },
-    ],
-    amenities: ["Free WiFi", "Restaurant", "24-hour Front Desk", "In-Room Dining"],
-  },
-  {
     id: "forest-keys",
-    index: "03",
+    index: "02",
     name: "Forest Keys by VYDA",
     city: "Bengaluru",
     area: "J.P. Nagar",
@@ -84,6 +56,34 @@ export const vydaHotels = [
       { name: "Executive King", meta: "220 sq.ft · 1 King Bed" },
     ],
     amenities: ["Free WiFi", "Concierge", "Restaurant", "Parking"],
+  },
+  {
+    id: "nivaara",
+    index: "03",
+    name: "Hotel Nivaara",
+    city: "Tirupati",
+    area: "APSRTC — Tirumala Road",
+    tag: "Sanctuary",
+    roomCount: "90 Premium Rooms",
+    description:
+      "A sanctuary near Tirumala — 20 km from Sri Venkateswara Temple, next to the APSRTC Central Bus Station, with 90 premium rooms, signature dining, and banquet spaces for 10–500 guests.",
+    highlights: [
+      "90 premium rooms in two crafted typologies",
+      "20 km from Sri Venkateswara Temple",
+      "Next to APSRTC Central Bus Station",
+      "Banquet capacity for 10–500 guests",
+    ],
+    address:
+      "Next to APSRTC Central Bus Station, Tirupati – 517501, Andhra Pradesh, India",
+    image: "https://nivaarahotels.com/__l5e/assets-v1/1e6d7064-979e-4b59-a5ab-4ba5e52d1b74/nivaara-facade-hero.jpg",
+    href: "https://nivaarahotels.com/",
+    exploreHref: "https://nivaarahotels.com/",
+    external: true,
+    rooms: [
+      { name: "Superior Room", meta: "288 sq.ft · King Bed" },
+      { name: "Executive Room", meta: "250 sq.ft · King Bed" },
+    ],
+    amenities: ["Free WiFi", "Two Signature Restaurants", "Banquets", "24-hour Front Desk"],
   },
 ];
 
@@ -127,7 +127,7 @@ export const promotedHotels = [
 export const destinations = [
   {
     name: "Bengaluru",
-    status: "3 VYDA Hotels",
+    status: "2 VYDA Hotels",
     image: "https://vydahotels.com/wp-content/uploads/2026/01/Untitled-design-46.jpg",
   },
 ];

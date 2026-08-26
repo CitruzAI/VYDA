@@ -1,9 +1,7 @@
-import { helloInnDetail } from "./helloInn.js";
 import { aurumKeysDetail } from "./aurumKeys.js";
 import { forestKeysDetail } from "./forestKeys.js";
 
 export const hotelDetails = {
-  "hello-inn": helloInnDetail,
   "aurum-keys": aurumKeysDetail,
   "forest-keys": forestKeysDetail,
 };
