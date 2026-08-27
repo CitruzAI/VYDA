@@ -70,7 +70,7 @@ export default function Partner() {
       <section className="py-[clamp(80px,10vw,140px)] bg-espresso text-ivory">
         <div className="max-w-[1400px] mx-auto px-5 md:px-10">
           <Reveal className="max-w-[700px] mb-12">
-            <h2 className="text-ivory text-[clamp(2rem,3.5vw,2.8rem)]">{marketing.heading}</h2>
+            <h2 className="!text-white text-[clamp(2rem,3.5vw,2.8rem)]">{marketing.heading}</h2>
             <p className="mt-5 text-ivory/75 leading-relaxed">{marketing.intro}</p>
           </Reveal>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-white/10">
@@ -84,7 +84,7 @@ export default function Partner() {
                     : ""
                 }`}
               >
-                <h4 className="text-lg text-champagne-light">{item}</h4>
+                <h4 className="text-lg !text-ivory">{item}</h4>
               </Reveal>
             ))}
           </div>

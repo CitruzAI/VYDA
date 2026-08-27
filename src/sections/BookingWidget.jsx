@@ -95,7 +95,7 @@ export default function BookingWidget() {
         <div className="flex items-center md:col-span-2 lg:col-span-1 lg:pl-6">
           <button
             type="submit"
-            className="w-full inline-flex items-center justify-center gap-2.5 bg-espresso text-ivory px-8 py-[18px] text-[0.82rem] font-semibold uppercase tracking-[0.09em] transition-colors duration-300 hover:bg-champagne hover:text-espresso"
+            className="w-full inline-flex items-center justify-center gap-2.5 bg-vyda-blue text-ivory px-8 py-[18px] text-[0.82rem] font-semibold uppercase tracking-[0.09em] transition-colors duration-300 hover:bg-vyda-blue-soft"
           >
             <Search className="w-4 h-4" strokeWidth={1.75} />
             Search Rooms

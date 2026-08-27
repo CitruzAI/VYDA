@@ -45,7 +45,7 @@ export default function PageHero({
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.35 }}
-          className="hero-heading text-[clamp(2rem,5vw,4.2rem)] leading-[1.05] max-w-[22ch]"
+          className="hero-heading !text-white text-[clamp(2rem,5vw,4.2rem)] leading-[1.05] max-w-[22ch]"
         >
           {headline}
         </motion.h1>

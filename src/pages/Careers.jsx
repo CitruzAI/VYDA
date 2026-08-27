@@ -96,7 +96,7 @@ export default function Careers() {
         <div className="max-w-[1400px] mx-auto px-5 md:px-10">
           <Reveal className="text-center mb-12">
             <span className="eyebrow on-dark mb-4">Open Positions</span>
-            <h2 className="text-ivory text-[clamp(2rem,4vw,3rem)]">Available Positions</h2>
+            <h2 className="!text-white text-[clamp(2rem,4vw,3rem)]">Available Positions</h2>
             <p className="mt-4 text-ivory/75 max-w-[56ch] mx-auto">
               We are always on the lookout for young, passionate individuals ready to learn, lead, and make an impact.
             </p>
@@ -110,7 +110,7 @@ export default function Careers() {
           </div>
 
           <Reveal className="text-center mb-12">
-            <h2 className="text-ivory text-[clamp(2rem,4vw,3rem)]">{cta.heading}</h2>
+            <h2 className="!text-white text-[clamp(2rem,4vw,3rem)]">{cta.heading}</h2>
             <p className="mt-4 text-ivory/75 max-w-[56ch] mx-auto">{cta.body}</p>
             <div className="mt-6 flex flex-wrap justify-center gap-4">
               {cta.actions.map((action) => (

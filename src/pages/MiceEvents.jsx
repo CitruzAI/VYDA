@@ -34,7 +34,7 @@ export default function MiceEvents() {
         <div className="max-w-[1400px] mx-auto px-5 md:px-10">
           <Reveal className="text-center mb-10">
             <span className="eyebrow on-dark mb-4">Event Highlights</span>
-            <h2 className="text-ivory text-[clamp(1.6rem,3vw,2.4rem)]">See VYDA MICE in action</h2>
+            <h2 className="!text-white text-[clamp(1.6rem,3vw,2.4rem)]">See VYDA MICE in action</h2>
           </Reveal>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {videos.map((video, i) => (
@@ -95,7 +95,7 @@ export default function MiceEvents() {
       <section className="py-[clamp(80px,10vw,140px)] bg-espresso text-ivory text-center">
         <div className="max-w-[700px] mx-auto px-5 md:px-10">
           <Reveal>
-            <h2 className="text-ivory text-[clamp(2rem,4vw,3rem)]">{cta.heading}</h2>
+            <h2 className="!text-white text-[clamp(2rem,4vw,3rem)]">{cta.heading}</h2>
             <p className="mt-5 text-ivory/75 leading-relaxed">{cta.body}</p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <Button href={`mailto:${brand.miceEmail}`} variant="ghostDark" icon={false}>
