@@ -27,7 +27,7 @@ export const forestKeysDetail = {
       occupancy: "1–2 guests",
       description:
         "Overlooking J.P. Nagar's Mini Forest, this room blends space and understated style with rain-shower bathrooms and plush bedding.",
-      image: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-52.jpg",
+      image: "/images/0T3A0262_02.jpg",
       amenities: ["Rain-shower bathroom", "Smart TV", "Complimentary Wi-Fi", "Plush bedding", "Artisanal toiletries"],
     },
     {
@@ -37,7 +37,7 @@ export const forestKeysDetail = {
       occupancy: "2 guests",
       description:
         "Spacious twin room with contemporary interiors, high-speed Wi-Fi, and essential amenities for shared comfort.",
-      image: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-6.jpg",
+      image: "/images/157_02HDR2.jpg",
       amenities: ["Rain-shower bathroom", "Smart TV", "Complimentary Wi-Fi", "Plush bedding", "Contemporary interiors"],
     },
     {
@@ -47,7 +47,7 @@ export const forestKeysDetail = {
       occupancy: "1–2 guests",
       description:
         "A refined executive room with functional elegance, ideal for business travellers seeking comfort in J.P. Nagar.",
-      image: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-52.jpg",
+      image: "/images/0T3A0295_02.jpg",
       amenities: ["Rain-shower bathroom", "Smart TV", "Complimentary Wi-Fi", "Work-friendly layout", "Plush bedding"],
     },
   ],
@@ -67,10 +67,10 @@ export const forestKeysDetail = {
     image: "https://vydahotels.com/wp-content/uploads/2026/01/Untitled-design-49.jpg",
   },
   gallery: [
-    { src: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-6.jpg", alt: "Forest Keys by VYDA" },
-    { src: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-52.jpg", alt: "Superior King room at Forest Keys" },
+    { src: "/images/0T3A8727.jpg", alt: "Forest Keys by VYDA corridor" },
+    { src: "/images/0T3A0262_02.jpg", alt: "Superior King room at Forest Keys" },
     { src: "https://vydahotels.com/wp-content/uploads/2026/01/Untitled-design-49.jpg", alt: "Dining at Forest Keys by VYDA" },
-    { src: "https://vydahotels.com/wp-content/uploads/2026/01/Untitled-design-48.jpg", alt: "VYDA hospitality at Forest Keys" },
+    { src: "/images/0T3A0295_02.jpg", alt: "VYDA hospitality at Forest Keys" },
   ],
   location: {
     address:

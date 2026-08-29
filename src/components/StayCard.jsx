@@ -14,6 +14,7 @@ export default function StayCard({ hotel, size = "large", aspect = "aspect-[4/5]
         src={hotel.image}
         alt={`${hotel.name}, ${hotel.city}`}
         className="w-full h-full object-cover"
+        style={{ objectPosition: hotel.imagePosition || "center" }}
         initial={{ scale: 1 }}
         whileHover={{ scale: 1.06 }}
         transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}

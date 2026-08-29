@@ -28,7 +28,7 @@ export const aurumKeysDetail = {
       price: "Rs 4,000 – 4,500 / Night",
       description:
         "The centerpiece is a plush king-size bed with high-quality soft linens, complimentary Wi-Fi and a smart TV.",
-      image: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-29.jpg",
+      image: "/images/0T3A0262_02.jpg",
       amenities: ["Rain-shower bathroom", "Artisanal toiletries", "Smart TV", "Complimentary Wi-Fi", "Plush bedding"],
     },
     {
@@ -39,7 +39,7 @@ export const aurumKeysDetail = {
       price: "Rs 4,250 – 4,750 / Night",
       description:
         "A boutique twin room designed for shared comfort, with modern styling and warm, restrained detailing.",
-      image: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-30.jpg",
+      image: "/images/157_02HDR2.jpg",
       amenities: ["Rain-shower bathroom", "Smart TV", "Complimentary Wi-Fi", "Plush bedding", "Artisanal toiletries"],
     },
     {
@@ -50,7 +50,7 @@ export const aurumKeysDetail = {
       price: "Rs 4,750 – 5,250 / Night",
       description:
         "Enhanced space with rain-shower bathrooms and artisanal toiletries — a quiet retreat for the extended stay.",
-      image: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-31.jpg",
+      image: "/images/0T3A0295_02.jpg",
       amenities: ["Rain-shower bathroom", "Artisanal toiletries", "Smart TV", "Complimentary Wi-Fi", "Enhanced room space"],
     },
   ],
@@ -70,10 +70,10 @@ export const aurumKeysDetail = {
     image: "https://vydahotels.com/wp-content/uploads/2026/01/Untitled-design-49.jpg",
   },
   gallery: [
-    { src: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-4.jpg", alt: "Aurum Keys by VYDA exterior" },
-    { src: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-29.jpg", alt: "Superior King room at Aurum Keys" },
-    { src: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-30.jpg", alt: "Superior Twin room at Aurum Keys" },
-    { src: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-31.jpg", alt: "Superior Deluxe room at Aurum Keys" },
+    { src: "/images/0T3A8727.jpg", alt: "Aurum Keys by VYDA corridor" },
+    { src: "/images/0T3A0262_02.jpg", alt: "Superior King room at Aurum Keys" },
+    { src: "/images/157_02HDR2.jpg", alt: "Superior Twin room at Aurum Keys" },
+    { src: "/images/0T3A0295_02.jpg", alt: "Superior Deluxe room at Aurum Keys" },
     { src: "https://vydahotels.com/wp-content/uploads/2026/01/Untitled-design-49.jpg", alt: "Dining at Aurum Keys by VYDA" },
   ],
   location: {

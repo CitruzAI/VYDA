@@ -4,7 +4,6 @@ export const hero = {
   sub: "With properties under our management and partnerships, we provide seamless hospitality and MICE solutions tailored to your business needs.",
   primaryCta: "Explore VYDA Hotels",
   secondaryCta: "Discover VYDA",
-  rating: { score: "5.0", note: "From 2,000+ reviews" },
   image: "/images/home-hero.png",
   imagePosition: "center 40%",
 };
@@ -14,7 +13,7 @@ export const experience = {
   heading: "Your Partner in Premium Business Stays and Events",
   body: "With properties under our management and partnerships, we provide seamless hospitality and MICE solutions tailored to your business needs. Whether it's for meetings, conferences, or a relaxing stay, VYDA Hotels offers unparalleled service across Bengaluru.",
   stat: { num: "65+", label: "Years combined founder expertise" },
-  image: "https://vydahotels.com/wp-content/uploads/2026/01/Untitled-design-48.jpg",
+  image: "/images/0T3A0262_02.jpg",
   points: [
     {
       title: "Business & leisure, equally considered",
@@ -44,35 +43,35 @@ export const rooms = [
     name: "Superior King",
     meta: "280 sq.ft · King Bed",
     desc: "The centerpiece is a plush king-size bed with high-quality soft linens, complimentary Wi-Fi and a smart TV.",
-    image: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-29.jpg",
+    image: "/images/0T3A0262_02.jpg",
   },
   {
     hotel: "Aurum Keys by VYDA",
     name: "Superior Twin",
     meta: "280 sq.ft · 2 Single Beds",
     desc: "A boutique twin room designed for shared comfort, with modern styling and warm, restrained detailing.",
-    image: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-30.jpg",
+    image: "/images/157_02HDR2.jpg",
   },
   {
     hotel: "Aurum Keys by VYDA",
     name: "Superior Deluxe",
     meta: "300 sq.ft · King Bed",
     desc: "Enhanced space with rain-shower bathrooms and artisanal toiletries — a quiet retreat for the extended stay.",
-    image: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-31.jpg",
+    image: "/images/0T3A0295_02.jpg",
   },
   {
     hotel: "Forest Keys by VYDA",
     name: "Superior King",
     meta: "300 sq.ft · King Bed",
     desc: "Overlooking J.P. Nagar's Mini Forest, this room blends space and understated style with rain-shower bathrooms.",
-    image: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-52.jpg",
+    image: "/images/0T3A0262_02.jpg",
   },
   {
     hotel: "Hotel Nivaara",
     name: "Superior Room",
     meta: "288 sq.ft · King Bed",
     desc: "Our most spacious accommodation at Hotel Nivaara, with a separate living area, butler service and luxury linens for a restful stay near Tirumala.",
-    image: "https://nivaarahotels.com/__l5e/assets-v1/f1dd6e03-3986-48e0-ab3f-ba99643c8e32/superior-room-v2.jpg",
+    image: "/images/1L1A7273.jpg",
   },
 ];
 
@@ -98,7 +97,7 @@ export const whyVyda = {
     },
     {
       title: "Diverse Hospitality Portfolio",
-      body: "A mix of owned and promoted hotels, each offering unique experiences and consistent service standards.",
+      body: "A focused collection of VYDA-managed hotels, each offering unique experiences and consistent service standards.",
     },
     {
       title: "Culinary Excellence",
@@ -126,7 +125,7 @@ export const finalCta = {
   heading: "Your next stay starts here.",
   body: "From boutique business stays in Bengaluru to seamless MICE experiences — reserve directly with VYDA for the most seamless experience.",
   cta: "Book Your Stay",
-  image: "https://vydahotels.com/wp-content/uploads/2026/01/Untitled-design-64.jpg",
+  image: "/images/1L1A7387.jpg",
 };
 
 export const homeMice = {

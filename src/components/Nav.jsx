@@ -37,14 +37,17 @@ export default function Nav() {
         }`}
       >
         <div className="max-w-[1400px] mx-auto px-5 md:px-10 flex items-center justify-between gap-6">
-          <Link to="/" className="flex items-center shrink-0" aria-label={brand.fullName}>
+          <Link to="/" className="relative inline-flex items-center shrink-0" aria-label={`${brand.fullName}™`}>
             <img
               src={`${brand.logo}?v=4`}
-              alt={brand.fullName}
+              alt={`${brand.fullName}™`}
               className="h-8 w-auto md:h-10"
               width={160}
               height={40}
             />
+            <sup className="absolute top-0 right-0 -translate-x-[8%] -translate-y-[18%] text-ivory text-[0.7rem] md:text-[0.85rem] font-semibold leading-none" aria-hidden="true">
+              ™
+            </sup>
           </Link>
 
           <nav className="hidden lg:flex items-center gap-8 xl:gap-10" aria-label="Primary">

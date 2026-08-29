@@ -12,7 +12,7 @@ export const nivaaraRooms = {
       rating: "5.0",
       description:
         "Our most spacious accommodation, with a separate living area, butler service and luxury linens for the ultimate restful stay.",
-      image: "https://nivaarahotels.com/__l5e/assets-v1/f1dd6e03-3986-48e0-ab3f-ba99643c8e32/superior-room-v2.jpg",
+      image: "/images/1L1A7273.jpg",
       imageAlt: "Superior Room at Hotel Nivaara with seating area",
       bed: "King bed",
       occupancy: { single: "₹ 4,000", double: "₹ 5,000" },

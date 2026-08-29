@@ -21,15 +21,6 @@ export default function Hero() {
         <div className="absolute inset-0 hero-overlay" aria-hidden="true" />
       </motion.div>
 
-      <div className="absolute top-[150px] right-5 md:right-10 z-10 text-right hidden sm:block">
-        <div className="text-[#F1E9D8] text-sm tracking-widest font-medium drop-shadow-[0_1px_3px_rgba(36,26,18,0.35)]">
-          ★★★★★
-        </div>
-        <div className="text-xs mt-1 text-[#F1E9D8]/90 tracking-wide font-medium drop-shadow-[0_1px_2px_rgba(36,26,18,0.3)]">
-          {hero.rating.score} · {hero.rating.note}
-        </div>
-      </div>
-
       <div className="relative z-10 w-full max-w-[1400px] mx-auto px-5 md:px-10 pb-[clamp(120px,18vw,200px)] pt-32 md:pt-40">
         <motion.div
           initial={{ opacity: 0, y: 16 }}

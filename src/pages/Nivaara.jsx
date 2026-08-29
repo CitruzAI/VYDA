@@ -52,7 +52,7 @@ function OverviewSection() {
           </Reveal>
           <Reveal delay={0.1} className="arch-frame overflow-hidden">
             <img
-              src="https://nivaarahotels.com/__l5e/assets-v1/9de74978-2aaf-4387-a94f-dadc0fcc6fea/lobby-2.jpg"
+              src="/images/1L1A7490.jpg"
               alt="Grand lobby with crystal chandelier at Hotel Nivaara"
               className="w-full h-[420px] object-cover"
               loading="lazy"

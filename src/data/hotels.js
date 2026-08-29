@@ -17,8 +17,8 @@ export const vydaHotels = [
     ],
     address:
       "39/3, 2nd Floor, SDP Building, Marathahalli–Mahadevapura Outer Ring Road, Next to Bagmane Constellation Business Park, Doddanekundi Junction, Bengaluru, Karnataka 560037",
-    image: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-4.jpg",
-    imageAlt: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-29.jpg",
+    image: "/images/0T3A0262_02.jpg",
+    imageAlt: "/images/157_02HDR2.jpg",
     href: "https://vydahotels.com/hotel-aurum-keys/",
     exploreHref: "/hotels/aurum-keys",
     rooms: [
@@ -46,8 +46,8 @@ export const vydaHotels = [
     ],
     address:
       "No. 44B, 1st Main Rd, opposite Mini Forest, Sarakki Industrial Layout, 3rd Phase, J.P. Nagar, Bengaluru, Karnataka 560078",
-    image: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-6.jpg",
-    imageAlt: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-52.jpg",
+    image: "/images/0T3A8727.jpg",
+    imageAlt: "/images/0T3A0295_02.jpg",
     href: "https://vydahotels.com/hotel-forest-keys/",
     exploreHref: "/hotels/forest-keys",
     rooms: [
@@ -75,7 +75,8 @@ export const vydaHotels = [
     ],
     address:
       "Next to APSRTC Central Bus Station, Tirupati – 517501, Andhra Pradesh, India",
-    image: "https://nivaarahotels.com/__l5e/assets-v1/1e6d7064-979e-4b59-a5ab-4ba5e52d1b74/nivaara-facade-hero.jpg",
+    image: "/images/elev_night_02.jpg",
+    imagePosition: "left top",
     href: "https://nivaarahotels.com/",
     exploreHref: "https://nivaarahotels.com/",
     external: true,
@@ -87,48 +88,11 @@ export const vydaHotels = [
   },
 ];
 
-export const promotedHotels = [
-  {
-    id: "mj-avyanna",
-    name: "MJ Avyanna Resort & Convention Centre",
-    city: "Bengaluru",
-    area: "Jigani — Anekal",
-    tag: "Promoted by VYDA",
-    address:
-      "Jigani – Anekal Rd, Suragajakkanahalli, Sidihosakote, Karnataka 562106",
-    highlights: [
-      "Distinguished Resort & Convention Center",
-      "Luxurious Offerings & Exceptional Hospitality",
-      "Set Amidst 6 Acres of Lush Greenery",
-      "Ideal for Weddings, Events & Getaways",
-    ],
-    image: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-11.jpg",
-    href: "https://vydahotels.com/promoted-by-vyda/",
-  },
-  {
-    id: "nirantara",
-    name: "Nirantara Resort & Spa",
-    city: "Bengaluru",
-    area: "Electronic City",
-    tag: "Promoted by VYDA",
-    address:
-      "221/1, Electronic City Phase 1, Hulimangala Village, Jigani Hobali, Anekal, Bengaluru, Karnataka 560106",
-    highlights: [
-      "Surrounded by Lush Nature Near Bangalore",
-      "Close to Major IT Hubs like Wipro & Infosys",
-      "Ideal for Team Outings & Outdoor Adventures",
-      "Nature-Immersed Resort Retreat",
-    ],
-    image: "https://vydahotels.com/wp-content/uploads/2026/02/Untitled-design-12.jpg",
-    href: "https://vydahotels.com/promoted-by-vyda/",
-  },
-];
-
 export const destinations = [
   {
     name: "Bengaluru",
     status: "2 VYDA Hotels",
-    image: "https://vydahotels.com/wp-content/uploads/2026/01/Untitled-design-46.jpg",
+    image: "/images/0T3A8727.jpg",
   },
 ];
 

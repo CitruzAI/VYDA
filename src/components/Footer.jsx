@@ -30,14 +30,17 @@ export default function Footer() {
       <div className="max-w-[1400px] mx-auto px-5 md:px-10">
         <div className="grid grid-cols-1 md:grid-cols-[1.4fr_1fr_1fr_1.2fr] gap-10 pb-14 border-b border-white/10">
           <div>
-            <Link to="/" className="inline-flex" aria-label={brand.fullName}>
+            <Link to="/" className="relative inline-flex" aria-label={`${brand.fullName}™`}>
               <img
                 src={brand.logoFooter}
-                alt={brand.fullName}
+                alt={`${brand.fullName}™`}
                 className="h-16 w-auto"
                 width={80}
                 height={64}
               />
+              <sup className="absolute top-[36%] right-0.5 text-ivory text-[0.7rem] font-semibold leading-none" aria-hidden="true">
+                ™
+              </sup>
             </Link>
             <p className="mt-4 text-sm max-w-[32ch] text-ivory/55 leading-relaxed">
               {brand.officeAddress}
