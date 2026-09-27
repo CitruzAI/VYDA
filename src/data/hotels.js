@@ -86,12 +86,70 @@ export const vydaHotels = [
     ],
     amenities: ["Free WiFi", "Two Signature Restaurants", "Banquets", "24-hour Front Desk"],
   },
+  {
+    id: "gubbi-goodu",
+    index: "04",
+    name: "Gubbi Goodu Resort BY VYDA",
+    city: "Bengaluru",
+    area: "Nelamangala — Tumkur Road",
+    tag: "Resort",
+    roomCount: "Cottages, villas & dorms on a 10-acre property",
+    description:
+      "A 10-acre vegetarian resort on Tumkur Road / Nelamangala — garden and pool-view stays, separate stay & dayout pools, and banquet spaces for events up to 1,000 guests.",
+    highlights: [
+      "10-acre greenery escape",
+      "Vegetarian-only cuisine",
+      "Separate stay & dayout pools",
+      "Events for up to 1,000 guests",
+    ],
+    address:
+      "21, Thorebyrasandram, Nelamangala, Bengaluru, Karnataka 562123",
+    image: "/images/gubbi-goodu-hero.jpg",
+    imageAlt: "/images/gubbi-goodu-pool.jpg",
+    href: "https://gubbigoodu.in/",
+    exploreHref: "/hotels/gubbi-goodu",
+    rooms: [
+      { name: "Cottage Room – Garden View", meta: "~400 sq.ft · Up to 3 guests" },
+      { name: "Villa Room – Garden View", meta: "420 sq.ft · Up to 3 guests" },
+      { name: "Villa Room – Pool View", meta: "420 sq.ft · Up to 3 guests" },
+      { name: "Dorm Room", meta: "~800 sq.ft · Up to 10 guests" },
+    ],
+    amenities: ["Free WiFi", "Vegetarian Dining", "Swimming Pools", "Banquets"],
+  },
+  {
+    id: "snooz-rooms",
+    index: "05",
+    name: "Snooz Rooms By Parika",
+    city: "Bengaluru",
+    area: "HSR Layout — Sector 3",
+    tag: "Boutique",
+    roomCount: "46 renovated rooms across A Wing & B Wing",
+    description:
+      "A VYDA Hotel in HSR Layout Sector 3 — 46 fully renovated rooms with contemporary interiors, premium bedding, and effortless connectivity to Koramangala, Electronic City, Sarjapur, and the ORR IT corridor.",
+    highlights: [
+      "46 renovated rooms",
+      "A Wing & B Wing",
+      "Prime HSR Layout location",
+      "Connected to ORR IT corridor",
+    ],
+    address: "14th Main, 18th Cross Rd, near BDA Complex, Sector 3, HSR Layout, Bengaluru, Karnataka 560102",
+    image: "/images/snooz-rooms-hero.jpg",
+    imageAlt: "/images/snooz-rooms-lobby.jpg",
+    href: "/hotels/snooz-rooms",
+    exploreHref: "/hotels/snooz-rooms",
+    rooms: [
+      { name: "Executive King", meta: "200 sq.ft · 1 King Bed" },
+      { name: "Superior Twin", meta: "280 sq.ft · 2 Separate Beds" },
+      { name: "Superior King", meta: "300 sq.ft · 1 King Bed" },
+    ],
+    amenities: ["Free WiFi", "Smart TV", "Laundry", "Multi-cuisine access"],
+  },
 ];
 
 export const destinations = [
   {
     name: "Bengaluru",
-    status: "2 VYDA Hotels",
+    status: "4 VYDA Hotels",
     image: "/images/0T3A8727.jpg",
   },
 ];
