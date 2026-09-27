@@ -104,8 +104,8 @@ export const vydaHotels = [
     ],
     address:
       "21, Thorebyrasandram, Nelamangala, Bengaluru, Karnataka 562123",
-    image: "/images/gubbi-goodu-hero.jpg",
-    imageAlt: "/images/gubbi-goodu-pool.jpg",
+    image: "/images/gubbi-goodu-hero_9474.jpg",
+    imageAlt: "/images/gubbi-goodu-pool_ed3b.jpg",
     href: "https://gubbigoodu.in/",
     exploreHref: "/hotels/gubbi-goodu",
     rooms: [
@@ -133,8 +133,8 @@ export const vydaHotels = [
       "Connected to ORR IT corridor",
     ],
     address: "14th Main, 18th Cross Rd, near BDA Complex, Sector 3, HSR Layout, Bengaluru, Karnataka 560102",
-    image: "/images/snooz-rooms-hero.jpg",
-    imageAlt: "/images/snooz-rooms-lobby.jpg",
+    image: "/images/snooz-rooms-hero_b429.jpg",
+    imageAlt: "/images/snooz-rooms-lobby_463c.jpg",
     href: "/hotels/snooz-rooms",
     exploreHref: "/hotels/snooz-rooms",
     rooms: [
