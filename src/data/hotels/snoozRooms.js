@@ -8,7 +8,7 @@ export const snoozRoomsDetail = {
   hero: {
     headline: "Snooz Rooms By Parika",
     sub: "A VYDA Hotel in the heart of HSR Layout — 46 renovated rooms across A Wing and B Wing for business and leisure.",
-    image: "/images/snooz-rooms-hero.jpg",
+    image: "/images/snooz-rooms-hero_b429.jpg",
     imagePosition: "center 35%",
   },
   overview: {
@@ -27,7 +27,7 @@ export const snoozRoomsDetail = {
       occupancy: "1–2 guests",
       description:
         "Thoughtfully designed for couples and business travelers, the Executive King blends contemporary style with warm wooden finishes and soft neutral tones. Unwind on a comfortable king-size bed with high-speed Wi-Fi, air conditioning, and a 43-inch Full Smart TV. Features a dedicated dressing area, wardrobe, in-room coffee and tea maker, premium bathroom amenities, and access to laundry services.",
-      image: "/images/snooz-rooms-executive-king.jpg",
+      image: "/images/snooz-rooms-executive-king_3e49.jpg",
       amenities: [
         "King-size bed",
         "Air conditioning",
@@ -44,7 +44,7 @@ export const snoozRoomsDetail = {
       occupancy: "2 guests",
       description:
         "Offering 280 sq. ft. of well-planned space, the Superior Twin is ideal for friends, family, or colleagues traveling together. Featuring two comfortable separate beds and warm wooden accents, with air conditioning, super-fast Wi-Fi, a 43-inch Full Smart TV, in-room coffee and tea maker, dedicated dressing area with wardrobe, premium bathroom amenities, and daily laundry services.",
-      image: "/images/snooz-rooms-superior-twin.jpg",
+      image: "/images/snooz-rooms-superior-twin_6251.jpg",
       amenities: [
         "Two separate beds",
         "Air conditioning",
@@ -61,7 +61,7 @@ export const snoozRoomsDetail = {
       occupancy: "1–2 guests",
       description:
         "Designed for guests seeking extra space and refined comfort, the Superior King offers a welcoming retreat for business and leisure travelers. Relax on a plush king-size bed surrounded by modern interiors and rich wooden finishes, with air conditioning, super-fast Wi-Fi, a 43-inch Full Smart TV, in-room coffee and tea maker, dedicated dressing area, wardrobe, premium bathroom amenities, and laundry services.",
-      image: "/images/snooz-rooms-superior-king.jpg",
+      image: "/images/snooz-rooms-superior-king_8b7b.jpg",
       amenities: [
         "King-size bed",
         "Air conditioning",
@@ -87,19 +87,19 @@ export const snoozRoomsDetail = {
     body: "Guests enjoy direct access to a variety of multi-cuisine dining options located within the building and adjacent properties — convenient for business dinners, casual meals, and extended stays.",
     cuisine: "Multi-cuisine (in-building & adjacent)",
     features: ["Dining within the building", "Adjacent multi-cuisine options", "Convenient for business and leisure"],
-    image: "/images/snooz-rooms-lobby.jpg",
+    image: "/images/snooz-rooms-lobby_463c.jpg",
   },
   gallery: [
-    { src: "/images/snooz-rooms-hero.jpg", alt: "Snooz Rooms By Parika facade" },
-    { src: "/images/snooz-rooms-entrance-night.jpg", alt: "Entrance at night at Snooz Rooms" },
-    { src: "/images/snooz-rooms-entrance-day.jpg", alt: "Entrance sign by day at Snooz Rooms" },
-    { src: "/images/snooz-rooms-lobby.jpg", alt: "Reception desk at Snooz Rooms" },
-    { src: "/images/snooz-rooms-reception.jpg", alt: "Reception area at Snooz Rooms" },
-    { src: "/images/snooz-rooms-corridor.jpg", alt: "Corridor at Snooz Rooms" },
-    { src: "/images/snooz-rooms-executive-king.jpg", alt: "King guest room at Snooz Rooms" },
-    { src: "/images/snooz-rooms-superior-twin.jpg", alt: "Twin guest room at Snooz Rooms" },
-    { src: "/images/snooz-rooms-superior-king.jpg", alt: "Guest room at Snooz Rooms" },
-    { src: "/images/snooz-rooms-guest-doorway.jpg", alt: "Guest room from doorway at Snooz Rooms" },
+    { src: "/images/snooz-rooms-hero_b429.jpg", alt: "Snooz Rooms By Parika facade" },
+    { src: "/images/snooz-rooms-entrance-night_4f78.jpg", alt: "Entrance at night at Snooz Rooms" },
+    { src: "/images/snooz-rooms-entrance-day_28c3.jpg", alt: "Entrance sign by day at Snooz Rooms" },
+    { src: "/images/snooz-rooms-lobby_463c.jpg", alt: "Reception desk at Snooz Rooms" },
+    { src: "/images/snooz-rooms-reception_c4c0.jpg", alt: "Reception area at Snooz Rooms" },
+    { src: "/images/snooz-rooms-corridor_842f.jpg", alt: "Corridor at Snooz Rooms" },
+    { src: "/images/snooz-rooms-executive-king_3e49.jpg", alt: "King guest room at Snooz Rooms" },
+    { src: "/images/snooz-rooms-superior-twin_6251.jpg", alt: "Twin guest room at Snooz Rooms" },
+    { src: "/images/snooz-rooms-superior-king_8b7b.jpg", alt: "Guest room at Snooz Rooms" },
+    { src: "/images/snooz-rooms-guest-doorway_e7de.jpg", alt: "Guest room from doorway at Snooz Rooms" },
   ],
   location: {
     address: "14th Main, 18th Cross Rd, near BDA Complex, Sector 3, HSR Layout, Bengaluru, Karnataka 560102",

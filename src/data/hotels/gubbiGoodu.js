@@ -8,7 +8,7 @@ export const gubbiGooduDetail = {
   hero: {
     headline: "Gubbi Goodu Resort BY VYDA",
     sub: "A 10-acre vegetarian resort escape on Tumkur Road — cottages, villas, dorms, and events for up to 1,000 guests.",
-    image: "/images/gubbi-goodu-hero.jpg",
+    image: "/images/gubbi-goodu-hero_9474.jpg",
     imagePosition: "center 40%",
   },
   overview: {
@@ -27,7 +27,7 @@ export const gubbiGooduDetail = {
       occupancy: "Up to 3 guests",
       description:
         "Spacious accommodation overlooking the surrounding greenery. Features air conditioning, Smart TV, Wi-Fi, mini fridge, wardrobe, study table, and kettle. The large attached bathroom comes with hot water facilities, while the peaceful garden-facing setting creates a relaxing atmosphere.",
-      image: "/images/gubbi-goodu-cottage.jpg",
+      image: "/images/gubbi-goodu-cottage_3ac3.jpg",
       amenities: ["Air conditioning", "Smart TV", "Wi-Fi", "Mini fridge", "Hot water bathroom", "Garden view"],
     },
     {
@@ -37,7 +37,7 @@ export const gubbiGooduDetail = {
       occupancy: "Up to 3 guests",
       description:
         "A comfortable retreat surrounded by greenery and serene garden views. Features air conditioning, Smart TV, Wi-Fi, mini fridge, wardrobe, study table, and kettle. The spacious attached bathroom includes hot water facilities — a convenient choice for couples, families, and small groups.",
-      image: "/images/gubbi-goodu-villa-garden.jpg",
+      image: "/images/gubbi-goodu-villa-garden_c197.jpg",
       amenities: ["Air conditioning", "Smart TV", "Wi-Fi", "Mini fridge", "Hot water bathroom", "Garden view"],
     },
     {
@@ -47,7 +47,7 @@ export const gubbiGooduDetail = {
       occupancy: "Up to 3 guests",
       description:
         "A relaxing villa overlooking the pool. Designed for up to 3 guests, it features air conditioning, Smart TV, Wi-Fi, mini fridge, wardrobe, study table, and kettle, with a spacious attached bathroom and hot water facilities. Ideal for couples, small families, or friends.",
-      image: "/images/gubbi-goodu-villa-pool.jpg",
+      image: "/images/gubbi-goodu-villa-pool_31f0.jpg",
       amenities: ["Air conditioning", "Smart TV", "Wi-Fi", "Mini fridge", "Hot water bathroom", "Pool view"],
     },
     {
@@ -57,7 +57,7 @@ export const gubbiGooduDetail = {
       occupancy: "Up to 10 guests",
       description:
         "A spacious dorm ideal for families and groups of up to 10 guests. Features air conditioning, Smart TV, Wi-Fi, study table, wardrobe, and a kettle. The large attached bathroom comes with hot water facilities — well suited for families looking to stay together comfortably.",
-      image: "/images/gubbi-goodu-dorm.jpg",
+      image: "/images/gubbi-goodu-dorm_ee0c.jpg",
       amenities: ["Air conditioning", "Smart TV", "Wi-Fi", "Hot water bathroom", "Group-friendly space"],
     },
   ],
@@ -76,23 +76,23 @@ export const gubbiGooduDetail = {
     body: "One of the resort's defining highlights is its vegetarian-only cuisine. From relaxed family meals to enjoying a wholesome spread with friends, guests can savour vegetarian food in a dedicated dining experience that forms an integral part of the resort's identity.",
     cuisine: "Vegetarian-only",
     features: ["Vegetarian-only kitchen", "Dedicated dining experience", "Wholesome family meals"],
-    image: "/images/gubbi-goodu-dining.jpg",
+    image: "/images/gubbi-goodu-dining_9d66.jpg",
   },
   events: {
     heading: "Events & celebrations for up to 1,000 guests",
     body: "Gubbi Goodu Resort BY VYDA boasts extensive event infrastructure — an indoor banquet hall, an expansive outdoor lawn, and a multi-banquet facility designed for a smooth flow of events. Ideal for grand celebrations, corporate gatherings, and leisurely dayouts.",
   },
   gallery: [
-    { src: "/images/gubbi-goodu-hero.jpg", alt: "Gubbi Goodu Resort BY VYDA grounds" },
-    { src: "/images/gubbi-goodu-cottage.jpg", alt: "Cottage exterior at Gubbi Goodu" },
-    { src: "/images/gubbi-goodu-dorm.jpg", alt: "Guest room interior at Gubbi Goodu" },
-    { src: "/images/gubbi-goodu-pool.jpg", alt: "Swimming pool at Gubbi Goodu Resort" },
-    { src: "/images/gubbi-goodu-pool-night.jpg", alt: "Pool at night at Gubbi Goodu" },
-    { src: "/images/gubbi-goodu-villa-pool.jpg", alt: "Poolside seating at Gubbi Goodu" },
-    { src: "/images/gubbi-goodu-lawn.jpg", alt: "Outdoor court and grounds at Gubbi Goodu" },
-    { src: "/images/gubbi-goodu-grounds.jpg", alt: "Outdoor fitness area at Gubbi Goodu" },
-    { src: "/images/gubbi-goodu-dining.jpg", alt: "Vegetarian dining at Gubbi Goodu" },
-    { src: "/images/gubbi-goodu-bbq.jpg", alt: "Vegetarian barbecue at Gubbi Goodu" },
+    { src: "/images/gubbi-goodu-hero_9474.jpg", alt: "Gubbi Goodu Resort BY VYDA grounds" },
+    { src: "/images/gubbi-goodu-cottage_3ac3.jpg", alt: "Cottage exterior at Gubbi Goodu" },
+    { src: "/images/gubbi-goodu-dorm_ee0c.jpg", alt: "Guest room interior at Gubbi Goodu" },
+    { src: "/images/gubbi-goodu-pool_ed3b.jpg", alt: "Swimming pool at Gubbi Goodu Resort" },
+    { src: "/images/gubbi-goodu-pool-night_2351.jpg", alt: "Pool at night at Gubbi Goodu" },
+    { src: "/images/gubbi-goodu-villa-pool_31f0.jpg", alt: "Poolside seating at Gubbi Goodu" },
+    { src: "/images/gubbi-goodu-lawn_c4dc.jpg", alt: "Outdoor court and grounds at Gubbi Goodu" },
+    { src: "/images/gubbi-goodu-grounds_8153.jpg", alt: "Outdoor fitness area at Gubbi Goodu" },
+    { src: "/images/gubbi-goodu-dining_9d66.jpg", alt: "Vegetarian dining at Gubbi Goodu" },
+    { src: "/images/gubbi-goodu-bbq_393a.jpg", alt: "Vegetarian barbecue at Gubbi Goodu" },
   ],
   location: {
     address:
