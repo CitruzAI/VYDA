@@ -5,7 +5,7 @@ export const hero = {
   primaryCta: "Explore VYDA Hotels",
   secondaryCta: "Discover VYDA",
   image: "/images/home-hero.png",
-  imagePosition: "center 40%",
+  imagePosition: "center 45%",
 };
 
 export const experience = {
